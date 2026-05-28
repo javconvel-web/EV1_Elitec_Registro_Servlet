@@ -28,6 +28,7 @@ public class RegistraProveedorServlet extends HttpServlet {
 		
 		System.out.println("Datos recibidos: " + razonsocial + " - " + ruc + " - " + direccion + " - " + correo + " - " + gerente + " - " + fechaCreacion);
 
+		
 		//2 Crear un objeto Proveedor
 		Proveedor proveedor = new Proveedor();
 		proveedor.setRazonSocial(razonsocial);
